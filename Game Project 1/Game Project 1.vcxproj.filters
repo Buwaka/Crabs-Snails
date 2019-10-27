@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tasks">
+      <UniqueIdentifier>{e9a18b4e-9e8e-4045-b5b3-7f4dbdf35f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{7048b131-7efe-4182-b209-edc2022ce218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{b514ecbc-85ec-42bc-8104-b65edb76d93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weapons">
+      <UniqueIdentifier>{e9945d42-4355-48e5-9307-85aa32a23847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{5293f14a-7395-4a04-8e17-8fa8238edd52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskFade.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskAnimation.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptMove.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskAttack.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DeusExMachina.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScreen.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Slug.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Crab.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskFade.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskAnimation.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptMove.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskAttack.cpp">
+      <Filter>Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DeusExMachina.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScreen.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Slug.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Crab.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
